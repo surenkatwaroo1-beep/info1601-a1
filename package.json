@@ -7,14 +7,14 @@
     "serve": "serve . -p 3000",
     "test": "mocha test.js",
     "dev": "npm run serve",
-    "update-testsuite": "npm install testsuite4@latest"
+    "update": "npm install testsuite4@latest"
   },
   "dependencies": {
     "chai": "^4.4.1",
     "mocha": "^10.4.0",
     "puppeteer": "^24.36.1",
     "serve": "^14.2.1",
-    "testsuite4": "^1.0.3"
+    "testsuite4": "^1.1.0"
   },
   "private": true
 }

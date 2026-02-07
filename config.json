@@ -4,17 +4,11 @@
     "executablePath": "",
     "slowMo": 0,
     "devtools": false,
-    "defaultViewport": {
-      "width": 1280,
-      "height": 720
-    },
-    "args": [
-      "--no-sandbox",
-      "--disable-setuid-sandbox",
-      "--disable-dev-shm-usage"
-    ]
+    "defaultViewport": { "width": 1400, "height": 1080 },
+    "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"]
   },
-  "baseUrl": "http://localhost:3000",
+  "baseUrl": "http://localhost:3000/assignment1",
+  "port": 3000,
   "timeout": 30000,
-  "waitUntil": "networkidle2"
+  "waitUntil": "load"
 }
